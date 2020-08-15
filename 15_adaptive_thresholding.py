@@ -11,6 +11,7 @@ th3 = cv.adaptiveThreshold(img, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BI
 
 print(img.ndim)
 
+
 cv.imshow('image', img)
 cv.imshow('th1', th1)
 cv.imshow('th2', th2)
